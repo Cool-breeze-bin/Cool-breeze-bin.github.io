@@ -1,110 +1,46 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+---
+layout: page
+description: "「离开世界之前 一切都是过程」"
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>疫情数字大屏</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./fonts/icomoon.css">
-</head>
-
-<body>
-    <div class="viewport">
-        <div class="column">
-            <!--按钮-->
-            <div class="overview panel">
-                <div class="inner">
-                    <div class="item active">
-                        <h4><a href="#">国际疫情</a></h4>
-                    </div>
-                    <div class="item">
-                        <h4><a href="./china.html">国内疫情</a></h4>
-                    </div>
-                </div>
-            </div>
-            <!--新闻-->
-            <div class="news panel">
-                <div class="inner">
-                    <h3>国际热点新闻</h3>
-                    <div class="content" style="display: block;">
-                        <div class="head">
-                            <span class="col">来源</span>
-                            <span class="col">标题</span>
-                            <span class="col">时间</span>
-                        </div>
-                        <div class="marquee-view">
-                            <div class="marquee">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--饼图-->
-            <div class="pies panel">
-                <div class="inner">
-                    <div class="chart">
-                        <div class="pie"></div>
-                    </div>
-                </div>
-            </div>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+                {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
         </div>
-        <div class="column">
-            <!-- 地图 -->
-            <div class="map">
-                <h3>
-                    <span class="icon-cube"></span>
-                    <span class="title">累积确诊人数</span>
-                </h3>
-                <div class="chart">
-                    <div class="geo"></div>
-                    <div class="btn-group">
-                        <a >累计确诊</a>
-                        <a >累计死亡</a>
-                        <a >累计治愈</a>
-                    </div>
-                </div>
-            </div>
-            <!-- 双折线 -->
-            <div class="doubleline panel">
-                <div class="inner">
-                    <div class="chart">
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <!-- 折线图 -->
-            <div class="lines panel">
-                <div class="inner">
-                    <div class="chart">
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- 折线图2 -->
-            <div class="lines2 panel">
-                <div class="inner">
-                    <div class="chart">
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-<script src="js/jquery.min.js"></script>
-<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-<script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
-<script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/chalk.js"></script>
-<script src="./js/index.js"></script>
-<script src="./js/utils.js"></script>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
 
-<script src="./js/china.js"></script>
-<script src="./js/options.js"></script>
-<script src="./js/mymap.js"></script>
-
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
