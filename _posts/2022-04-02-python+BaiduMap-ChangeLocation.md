@@ -12,8 +12,7 @@ tags:
 categories: 数据处理
 ---
 
-* content
-{:toc}
+
 # 前期准备
 
 首先安装需要的库，requests(主要用于获取百度地图API地址)
