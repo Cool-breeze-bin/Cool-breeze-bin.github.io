@@ -23,15 +23,24 @@ multilingual: true
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
-<div class="comment">
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="2b5bbf86-f21a-474b-adf1-86eb3b70246e"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<!-- <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
 
     </div>
-</div>
+</div> -->
+
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
@@ -42,6 +51,6 @@ multilingual: true
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>
+</script> -->
 <!-- disqus 公共JS代码 end -->
 {% endif %}
