@@ -20,22 +20,22 @@ tags:
 wget -O bt_ubuntu_deepin.sh http://filedown.myhostadmin.net/bt/ubuntu_deepin.sh && sudo bash bt_ubuntu_deepin.sh
 ```
 安装结果：
-![](./img/mqtt/baota_login.png)
+![](img/mqtt/baota_login.png)
 
 # 2.通过宝塔页面安装Docker管理器
 操作如下：
-![](./img/mqtt/docker_tools.png)
+![](img/mqtt/docker_tools.png)
 # 3.拉取MQTT相关镜像到Docker中
 操作如下：
 
 1.打开Docker管理器
-![](./img/mqtt/OpenDockerTools.png)
+![](img/mqtt/OpenDockerTools.png)
 
 2.拉取``` emqx/emqx ```镜像
-![](./img/mqtt/emqx.png)
+![](img/mqtt/emqx.png)
 # 4.开启MQTT服务
 (1).首先打开终端
-![](./img/mqtt/term.png)
+![](img/mqtt/term.png)
 
 (2).分别输入命令
 ```c
@@ -56,7 +56,7 @@ docker exec -it  emqx /bin/sh
 
 登陆成功页面：
 
-![](./img/mqtt/emqt.png)
+![](img/mqtt/emqt.png)
 # 测试
 ## 1. Python测试
 首先安装paho-mqtt
@@ -66,7 +66,7 @@ docker exec -it  emqx /bin/sh
 pip install paho-mqtt
 ```
 使用Pycharm安装：
-![](./img/mqtt/install_paho-mqtt.png)
+![](img/mqtt/install_paho-mqtt.png)
 
 ### 数据发送代码
 ```python
@@ -157,32 +157,32 @@ if __name__ == '__main__':
 测试结果如下：
 
 发送数据
-![](./img/mqtt/mqtt_send.png)
+![](img/mqtt/mqtt_send.png)
 
 接收数据
-![](./img/mqtt/mqtt_recive.png)
+![](img/mqtt/mqtt_recive.png)
 ## 2.Python+MQ
  首先进行MQ连接
- ![](./img/mqtt/MQConnect.png)
+ ![](img/mqtt/MQConnect.png)
 
 ### (1).python发送数据；MQ接收数据
  
 
 
 连接成功后，进行接收相关配置（上面操作页面下滑）
-![](./img/mqtt/ReciveSetting.png)
+![](img/mqtt/ReciveSetting.png)
 
 设置完成后，运行之前的Python发送数据代码，滑到MQ页面底部可看到接收的数据
-![](./img/mqtt/ReciveCheck.png)
+![](img/mqtt/ReciveCheck.png)
 
 ### (2).Python接收数据；MQ发送数据
 首先运行python接收数据的代码。
 
 MQ页面中进行如下操作：
-![](./img/mqtt/MQSend.png)
+![](img/mqtt/MQSend.png)
 
 验证Python端接收的数据：
-![](./img/mqtt/PythonRecive.png)
+![](img/mqtt/PythonRecive.png)
 
 ----
 **验证完毕，MQTT搭建成功！**
