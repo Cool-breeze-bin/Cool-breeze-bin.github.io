@@ -3,7 +3,7 @@ layout: post
 title:  Docker搭建MQTT(云服务器-Ubuntu)
 subtitle: "Build MQTT in Docker(BaiDuCloud-Ubuntu)"
 author: "BinBin"
-# header-img: "./img/mqtt/baota_login.jpg"
+header-img: "img/mqtt/background.jpg"
 header-mask: 0.4
 tags:
   - python
