@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  阿里云设备与MQTT.fx进行连接)
+title:  MQTT.fx连接阿里云IOT设备
 subtitle: "AliyunIot connects with MQTT"
 author: "BinBin"
-header-img: "/img/mqtt/background.jpg"
+header-img: "img/mqtt/background.jpg"
 header-mask: 0.4
 tags:
   - MQTT
