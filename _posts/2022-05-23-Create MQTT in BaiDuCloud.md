@@ -20,7 +20,7 @@ tags:
 wget -O bt_ubuntu_deepin.sh http://filedown.myhostadmin.net/bt/ubuntu_deepin.sh && sudo bash bt_ubuntu_deepin.sh
 ```
 安装结果：
-![](img/mqtt/baota_login.png)
+![](/img/mqtt/baota_login.png)
 
 # 2.通过宝塔页面安装Docker管理器
 操作如下：
