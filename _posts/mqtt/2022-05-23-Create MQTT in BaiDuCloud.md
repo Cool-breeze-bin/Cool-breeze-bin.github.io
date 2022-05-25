@@ -6,9 +6,9 @@ author: "BinBin"
 header-img: "img/mqtt/background.jpg"
 header-mask: 0.4
 tags:
-  - python
+  - Docker
   - MQTT
-  - 数据采集
+  - Python
 # categories: python
 ---
 

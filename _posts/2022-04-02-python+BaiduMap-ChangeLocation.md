@@ -6,7 +6,7 @@ author: "BinBin"
 header-img: "img/about-bg-walle.jpg"
 header-mask: 0.4
 tags:
-  - python
+  - Python
   - 数据采集
   - 数据处理
 # categories: python
