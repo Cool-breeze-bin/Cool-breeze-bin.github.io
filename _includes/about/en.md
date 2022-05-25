@@ -1,6 +1,6 @@
 Hi，我是Cool-Breeze-Bin，前端娱乐圈 NPC，编程语言/编译器初心者，2021[华为耀星校园大使](https://developer.huawei.com/consumer/cn/programs/hsd)
 
-##### 演讲与分享
+<!-- ##### 演讲与分享
 
 - [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
 - Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
@@ -10,7 +10,7 @@ Hi，我是Cool-Breeze-Bin，前端娱乐圈 NPC，编程语言/编译器初心�
 - [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
 - Progressive Web App 之我见 · GDG IO Redux 北京 2016
 - [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
+- [JavaScript 模块化七日谈][1] · 2015 -->
 
 <!-- [1]: //huangxuan.me/2015/07/09/js-module-7day/
 [2]: //huangxuan.me/2015/12/28/css-sucks-2015/
