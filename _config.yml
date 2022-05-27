@@ -79,7 +79,7 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "CoolBreeze，机器学习，数据采集，数据分析"
+sidebar-about-description: "CoolBreeze /n 机器学习，数据采集，数据分析"
 sidebar-avatar: img/myself.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
