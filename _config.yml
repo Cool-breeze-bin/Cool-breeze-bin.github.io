@@ -5,7 +5,7 @@ header-img: img/home-bg3.jpg
 email: coolbreeze@petalmail.com
 description: "一名有梦想的本科生 | CoolBreeze，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @CoolBreeze 的个人博客，与你一起发现更大的世界。"
 keyword: "CoolBreeze, 技术分享, 热爱学术, 数据采集, 数据分析, 机器学习, 博客, 个人网站, 互联网, Web,前端"
-url: "http://cool-breeze-bin.gitee.io/"              # your host, for absolute URL
+url: "https://cool-breeze-bin.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     6068376350
-# zhihu_username:     CoolBreeze
+zhihu_username:     bin-bin-42-5-91
 github_username:    Cool-breeze-bin
 #twitter_username:   CoolBreeze
 #facebook_username:  huxpro
@@ -104,12 +104,12 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #     title: "乱序（Midare）",
-    #     href: "http://mida.re/"
-    # },{
+        title: "Hux",
+        href: "http://huangxuan.me/"
+    },{
+        title: "小天",
+        href: "https://blog.csdn.net/m0_46313726?spm=1000.2115.3001.5343https://blog.csdn.net/m0_46313726?spm=1000.2115.3001.5343"
+    },{
     #     title: "Sherry Woo",
     #     href: "https://sherrywoo.me/"
     # },{
