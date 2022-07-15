@@ -1,9 +1,8 @@
-Hi，我是Cool-Breeze-Bin，擅长领域：数据挖掘、数据处理分析、深度学习，2021[华为耀星校园大使](https://developer.huawei.com/consumer/cn/programs/hsd)
+Hi，我是Cool-Breeze-Bin，擅长领域：数据挖掘、数据处理分析、深度学习，2021-2022[华为耀星校园大使](https://developer.huawei.com/consumer/cn/programs/hsd)
 
 ##### 目前学历
 
 - 本科在读
-- 大三
 - 考研
 
 ##### 校内经历
@@ -17,6 +16,7 @@ Hi，我是Cool-Breeze-Bin，擅长领域：数据挖掘、数据处理分析、
 
 ##### 时光已逝，荣誉已为历史
 
+- 2022年03月 获2020-2021学年「创新创业奖」
 - 2021年12月 获校内第十二届企业信息化大赛「二等奖」
 - 2021年12月 获校内第九届程序设计大赛「一等奖」
 - 2021年11月 获HMS Core线上挑战赛「一等奖」
