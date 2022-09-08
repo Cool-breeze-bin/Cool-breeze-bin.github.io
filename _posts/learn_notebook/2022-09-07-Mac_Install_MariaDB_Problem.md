@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "Mac 安装MariaDB问题"
 subtitle: "The Problem With Install MariaDB in Mac"
-layout: post
 author: "Fang Binbin"
-header-style: text
-hidden: true
+header-img: "img/K-Means/background.jpg"
+header-mask: 0.4
 tags:
   - 笔记
   - MariaDB

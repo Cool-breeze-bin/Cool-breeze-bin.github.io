@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "JavaScript 学习(1)"
 subtitle: "JavaScript Learn(1)"
-layout: post
 author: "Fang Binbin"
-header-style: text
-hidden: true
+header-img: "img/K-Means/background.jpg"
+header-mask: 0.4
 tags:
   - 笔记
   - JavaScript
