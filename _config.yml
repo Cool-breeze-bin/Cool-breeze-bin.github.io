@@ -70,7 +70,10 @@ netease_comment: false
 # Baidu Analytics 
 # ba_track_id: [your track id]
 # baidu_tongji_id: f3b06988f57795b0abce85993b9807fa
-# Google Analytics
+Google Analytics: G-TCWK4DYNLH
+# Baidu Analytics: 1c7fa77b2c2efd7aa8e382ddc35eb0e0
+# baidu-analysis: 1c7fa77b2c2efd7aa8e382ddc35eb0e0
+
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 # ga_domain: huangxuan.me
 
